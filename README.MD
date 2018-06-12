@@ -2,7 +2,7 @@
 
 Simple library to create alert from Bootstrap Framework.
 
-https://david-dm.org/dhanyn10/bootsalert.svg
+![](https://david-dm.org/dhanyn10/bootsalert.svg)
 
 # How to Use
 There's several variable that must be filled and should be filled to make this library can work perfectly:
