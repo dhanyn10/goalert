@@ -6,7 +6,8 @@ Simple library to create alert from Bootstrap Framework.
 
 # How to Use
 This code below shows you an example about how to use this library:
-```...
+```html
+...
 <body>
     <div id="demo"></div>
 </body>
