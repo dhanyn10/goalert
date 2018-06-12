@@ -5,6 +5,19 @@ Simple library to create alert from Bootstrap Framework.
 ![](https://david-dm.org/dhanyn10/bootsalert.svg)
 
 # How to Use
+This code below shows you an example about how to use this library:
+```...
+<body>
+    <div id="demo"></div>
+</body>
+<script>
+    bootsalert({
+        type: "danger",
+        message: "be success",
+        container: "demo"
+    });
+</script>
+```
 There's several variable that must be filled and should be filled to make this library can work perfectly:
 
 | variable | content |
