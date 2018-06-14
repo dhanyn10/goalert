@@ -27,6 +27,6 @@
   "homepage": "https://github.com/dhanyn10/bootsalert#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "jquery": "^1.12.4"
+    "jquery": "^3.0.0"
   }
 }
