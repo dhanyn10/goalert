@@ -1,7 +1,7 @@
 # BootsAlert
 
-Simple library to create alert from Bootstrap Framework.
-
+Simple library to create alert from Bootstrap Framework.  
+[![Build Status](https://travis-ci.org/dhanyn10/bootsalert.svg?branch=master)](https://travis-ci.org/dhanyn10/bootsalert) 
 ![](https://david-dm.org/dhanyn10/bootsalert.svg)
 
 # How to Use
