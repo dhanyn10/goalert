@@ -13,13 +13,20 @@ var bootsalert = function(val){
     }
     else
     {
+        /**
+         * type         : type of bootstrap alert class, like success, info, ...
+         * message      : the message will displayed to user
+         * container    : alert will be inserted to this component, this component must have id attributes
+         * closebtn     : if true, alert will have close button with fade effect
+         */
         type        = val.type;
         message     = val.message;
         container   = val.container;
         closebtn    = val.closebtn;
+        
         closeclass  = "";
         closealert  = "";
-
+        
         if(val.closebtn == true)
         {
             closeclass = " alert-dismissible";
@@ -28,10 +35,11 @@ var bootsalert = function(val){
 
         if(type === "success" || "info" || "warning" || "danger")
         {
-            createHTML = "<div class='alert alert-"+ type +" "+ closeclass +"'>"+
-                            closealert +
-                            message +
-                        "</div>";
+            createHTML =
+            "<div class='alert alert-"+ type +" "+ closeclass +"'>"+
+                closealert +
+                message +
+            "</div>";
             document.getElementById(container).innerHTML = createHTML;
         }
         else
