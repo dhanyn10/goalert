@@ -4,6 +4,9 @@ Simple library to create alert from Bootstrap Framework.
 
 ![](https://david-dm.org/dhanyn10/bootsalert.svg)
 
+# Compatibility
+This library is compatible with bootstrap 3 and 4 alert.
+
 # How to Use
 This code below shows you an example about how to use this library:
 ```html
