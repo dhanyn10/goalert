@@ -13,9 +13,10 @@ This code below shows you an example about how to use this library:
 </body>
 <script>
     bootsalert({
-        type: "danger",
+        type: "success",
         message: "be success",
-        container: "demo"
+        container: "demo",
+        closebtn: true
     });
 </script>
 ```
