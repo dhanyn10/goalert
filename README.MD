@@ -17,7 +17,7 @@ This code below shows you an example about how to use this library:
 </body>
 <script>
     bootsalert({
-        type: "success",
+        className: "success",
         message: "be success",
         container: "demo",
         closebtn: true
@@ -28,7 +28,7 @@ There's several variable that must be filled and should be filled to make this l
 
 | variable  	| valuetype 	| content                                                                             	|
 |-----------	|----------	|-------------------------------------------------------------------------------------	|
-| type      	| string   	| the type of alert provide by bootstrap. you can use success or other type           	|
+| className     | string   	| class name of alert provide by bootstrap. you can use success or other type or your own custom type          	|
 | message   	| string   	| your message to user after doing something                                          	|
 | container 	| string   	| alert will be inserted to this component, but component must be have id attributes 	|
 | closebtn  	| boolean  	| [optional:false] specify that alert will have close button or not.                  	|

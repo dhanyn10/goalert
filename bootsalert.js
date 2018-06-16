@@ -14,12 +14,12 @@ var bootsalert = function(val){
     else
     {
         /**
-         * type         : type of bootstrap alert class, like success, info, ...
+         * className    : set bootstrap alert class, like success, info, ..., or developer can use their own custom class
          * message      : the message will displayed to user
          * container    : alert will be inserted to this component, this component must have id attributes
          * closebtn     : if true, alert will have close button with fade effect
          */
-        type        = val.type;
+        className   = val.className;
         message     = val.message;
         container   = val.container;
         closebtn    = val.closebtn;
@@ -33,7 +33,7 @@ var bootsalert = function(val){
             closealert = "<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>";
         }
         createHTML =
-        "<div class='alert alert-"+ type +" "+ closeclass +"'>"+
+        "<div class='alert alert-"+ className +" "+ closeclass +"'>"+
             closealert +
             message +
         "</div>";
