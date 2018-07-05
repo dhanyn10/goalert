@@ -26,9 +26,9 @@ This code below shows you an example about how to use this library:
 ```
 There's several variable that must be filled and should be filled to make this library can work perfectly:
 
-| variable  	| valuetype 	| content                                                                             	|
+| variable  	| type 	| content                                                                             	|
 |-----------	|----------	|-------------------------------------------------------------------------------------	|
-| className     | string   	| class name of alert provide by bootstrap. you can use success or other type or your own custom type          	|
-| message   	| string   	| your message to user after doing something                                          	|
-| container 	| string   	| alert will be inserted to this component, but component must be have id attributes 	|
-| closebtn  	| boolean  	| [optional:false] specify that alert will have close button or not.                  	|
+| className     | string   	| [required]class name of alert provide by bootstrap. you can use success or other type or your own custom type          	|
+| message   	| string   	| [required]your message to user after doing something                                          	|
+| container 	| string   	| [required]alert will be inserted to this component. Selected component must have id attributes 	|
+| closebtn  	| boolean  	| [optional:false]specify that alert will have close button or not.                  	|
