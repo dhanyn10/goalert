@@ -1,7 +1,7 @@
 var bootsalert = function(val){
-    if(!val.type)
+    if(!val.className)
     {
-        console.error("type must be filled");
+        console.error("className must be filled");
     }
     else if(!val.message)
     {
