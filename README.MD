@@ -2,7 +2,7 @@
 
 Simple library to create alert from Bootstrap Framework.
 
-![](https://david-dm.org/dhanyn10/bootsalert.svg)
+[![dependencies Status](https://david-dm.org/dhanyn10/bootsalert/status.svg)](https://david-dm.org/dhanyn10/bootsalert)
 [![GitHub version](https://badge.fury.io/gh/dhanyn10%2Fbootsalert.svg)](https://badge.fury.io/gh/dhanyn10%2Fbootsalert)
 
 # Compatibility
