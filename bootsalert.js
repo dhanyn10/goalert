@@ -39,13 +39,13 @@ var bootsalert = function(val){
             closealert +
             message +
         "</div>";
-        if(append == true)
+        if(append == false)
         {
-            document.getElementById(container).innerHTML += createHTML;
+            document.getElementById(container).innerHTML = createHTML;
         }
         else
         {
-            document.getElementById(container).innerHTML = createHTML;
+            document.getElementById(container).innerHTML += createHTML;
         }
     }
 };
