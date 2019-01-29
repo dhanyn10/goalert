@@ -29,7 +29,7 @@ var bootsalert = function(val){
         closeclass  = "";
         closealert  = "";
         
-        if(val.closebtn == true)
+        if(closebtn == true)
         {
             closeclass = " alert-dismissible";
             closealert = "<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>";
