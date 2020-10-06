@@ -22,8 +22,13 @@
   },
   "homepage": "https://github.com/dhanyn10/bootsalert#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.0.0"
+    "bootstrap": "^4.5.2"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "jquery-slim": "^3.0.0",
+    "popper.js": "^1.16.1"
+  }
 }
