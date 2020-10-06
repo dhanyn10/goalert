@@ -20,14 +20,14 @@ var bootsalert = function(val){
          * closebtn     : if true, alert will have close button with fade effect
          * append       : bootsalert can be appended with several alert elements in one container
          */
-        className   = val.className;
-        message     = val.message;
-        container   = val.container;
-        closebtn    = val.closebtn;
-        append      = val.append;
+        var className   = val.className;
+        var message     = val.message;
+        var container   = val.container;
+        var closebtn    = val.closebtn;
+        var append      = val.append;
 
-        closeclass  = "";
-        closealert  = "";
+        var closeclass  = "";
+        var closealert  = "";
         
         if(closebtn == true)
         {
