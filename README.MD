@@ -26,7 +26,7 @@ This code below shows you an example about how to use this library:
 ```
 There's several variable that must be filled and should be filled to make this library can work perfectly:
 
-| variable | type | condition | default | content |
+| variable | type | condition | default | details |
 |----------|------|-----------|---------|---------|
 | className | string | required | empty | class name of alert provide by bootstrap. you can use `success` class or other class name or your own custom class |
 | message | string | required | empty | your message to user after doing something |
