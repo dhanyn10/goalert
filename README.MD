@@ -28,7 +28,7 @@ There's several variable that must be filled and should be filled to make this l
 
 | variable | type | condition | default | content |
 |----------|------|-----------|---------|---------|
-| className | string | required | empty | class name of alert provide by bootstrap. you can use success or other type or your own custom type |
+| className | string | required | empty | class name of alert provide by bootstrap. you can use `success` class or other class name or your own custom class |
 | message | string | required | empty | your message to user after doing something |
 | container | string | required | empty | alert will be inserted to this component. Selected component must have id attributes |
 | closebtn | boolean | optional | false | specify that alert will have close button or not. |
