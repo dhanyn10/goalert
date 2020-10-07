@@ -1,5 +1,5 @@
 {
-  "name": "bootsalert",
+  "name": "@dhanyn10/bootsalert",
   "version": "0.1.2",
   "description": "Javascript alert creator library for Bootstrap Framework",
   "main": "bootsalert.js",
