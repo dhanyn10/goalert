@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/dhanyn10/bootsalert#readme",
   "dependencies": {
-    "bootstrap": "^4.5.2"
+    "bootstrap": "^5.0.2"
   },
   "devDependencies": {
     "jquery-slim": "^3.0.0",
